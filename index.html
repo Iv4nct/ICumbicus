@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary SEO -->
-    <title>Iván Cumbicus Tacuri | Security Analyst | IT Systems Administrator</title>
-    <meta name="description" content="Iván Cumbicus Tacuri — Security Analyst con base sólida en Administración de Sistemas (Windows Server/Active Directory), redes corporativas e infraestructura IT. Enfoque en ciberseguridad, ethical hacking y hardening. Certificaciones: ITIL Foundation v4, EHE, IT Specialist - Network Security. Inglés B2." />
-    <meta name="keywords" content="Iván Cumbicus Tacuri, Security Analyst, Ciberseguridad, Ethical Hacking, OSINT, Purple Team, Administrador de Sistemas, Windows Server, Active Directory, ITIL, Network Security, Madrid" />
-    <meta name="author" content="Iván Cumbicus Tacuri" />
+    <title>Ivan Cumbicus Tacuri | Security Analyst | IT Systems Administrator</title>
+    <meta name="description" content="Ivan Cumbicus Tacuri — Security Analyst con base sólida en Administración de Sistemas (Windows Server/Active Directory), redes corporativas e infraestructura IT. Enfoque en ciberseguridad, ethical hacking y hardening. Certificaciones: ITIL Foundation v4, EHE, IT Specialist - Network Security. Inglés B2." />
+    <meta name="keywords" content="Ivan Cumbicus Tacuri, Security Analyst, Ciberseguridad, Ethical Hacking, OSINT, Purple Team, Administrador de Sistemas, Windows Server, Active Directory, ITIL, Network Security, Madrid" />
+    <meta name="author" content="Ivan Cumbicus Tacuri" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://iv4nct.github.io/ICumbicus/" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Iván Cumbicus Tacuri" />
-    <meta property="og:title" content="Iván Cumbicus Tacuri | Security Analyst" />
+    <meta property="og:site_name" content="Ivan Cumbicus Tacuri" />
+    <meta property="og:title" content="Ivan Cumbicus Tacuri | Security Analyst" />
     <meta property="og:description" content="Portfolio profesional — Security Analyst con base SysAdmin (Windows/AD), redes corporativas e infraestructura IT. ITIL v4, EHE, Network Security. Inglés B2." />
     <meta property="og:url" content="https://iv4nct.github.io/ICumbicus/" />
     <meta property="og:image" content="https://iv4nct.github.io/ICumbicus/assets/og-image.png" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Iván Cumbicus Tacuri | Security Analyst" />
+    <meta name="twitter:title" content="Ivan Cumbicus Tacuri | Security Analyst" />
     <meta name="twitter:description" content="Security Analyst · Ethical Hacking · SysAdmin (Windows/AD) · ITIL v4 · Network Security · Inglés B2" />
     <meta name="twitter:image" content="https://iv4nct.github.io/ICumbicus/assets/og-image.png" />
 
@@ -42,7 +42,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "name": "Iván Cumbicus Tacuri",
+      "name": "Ivan Cumbicus Tacuri",
       "jobTitle": "Security Analyst",
       "email": "mailto:ivancumbicus7@gmail.com",
       "url": "https://iv4nct.github.io/ICumbicus/",
@@ -61,14 +61,15 @@
   </head>
 
   <body>
+    <canvas id="bg-net" aria-hidden="true"></canvas>
     <a class="skip" href="#content">Saltar al contenido</a>
 
     <header class="topbar" id="top">
       <div class="container topbar__inner">
         <a class="brand" href="#top" aria-label="Ir al inicio">
-          <span class="brand__mark" aria-hidden="true"></span>
+          <img class="brand__logo" src="./assets/logo-ict.png" alt="ICT logo" width="34" height="34" />
           <span class="brand__text">
-            <span class="brand__name">ICT</span>
+            <span class="brand__name">ICumbicus</span>
             <span class="brand__role">Security · SysAdmin</span>
           </span>
         </a>
@@ -91,9 +92,10 @@
       <section class="hero" aria-label="Portada">
         <div class="container hero__grid">
           <div class="hero__left">
+            <div class="hero__logo"><img src="./assets/logo-ict.png" alt="ICT logo" width="74" height="74"></div>
             <p class="eyebrow">Portfolio profesional</p>
             <h1 class="title">
-              <span>IVÁN</span>
+              <span>IVAN</span>
               <span>CUMBICUS</span>
               <span>TACURI</span>
             </h1>
@@ -103,9 +105,7 @@
               <p>Ex Administrador de Sistemas IT</p>
             </div>
 
-            <p class="lead">
-              Protegiendo infraestructuras digitales a través de prácticas de seguridad éticas.
-            </p>
+            <button class="lead lead--toggle" id="leadToggle" type="button" aria-pressed="false"><span class="lead__icon" aria-hidden="true"></span><span class="lead__text">Protegiendo infraestructuras digitales a través de prácticas de seguridad éticas.</span></button>
 
             <div class="hero__cta">
               <a class="btn btn--primary" href="mailto:ivancumbicus7@gmail.com">
@@ -135,7 +135,7 @@
 
           <aside class="hero__right" aria-label="Foto y accesos rápidos">
             <div class="portrait">
-              <img src="./assets/profile.png" alt="Foto profesional de Iván Cumbicus Tacuri" />
+              <img src="./assets/profile.png" alt="Foto profesional de Ivan Cumbicus Tacuri" />
               <span class="portrait__ring" aria-hidden="true"></span>
             </div>
 
@@ -347,8 +347,7 @@
                   <i class="ri-download-2-line" aria-hidden="true"></i>
                   Descargar CV
                 </a>
-                <p class="muted small">Sube tu CV a <code>assets/CV_Ivan_Cumbicus.pdf</code> para activar el botón.</p>
-              </div>
+                </div>
             </div>
           </div>
 
@@ -360,7 +359,7 @@
 
       <footer class="footer">
         <div class="container footer__inner">
-          <div class="muted">© <span id="year"></span> Iván Cumbicus Tacuri. Security Analyst.</div>
+          <div class="muted">© <span id="year"></span> Ivan Cumbicus Tacuri. Security Analyst.</div>
           <div class="footer__links">
             <a href="https://www.linkedin.com/in/ivancumbicus" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
             <a href="https://github.com/Iv4nct" target="_blank" rel="noopener" aria-label="GitHub"><i class="ri-github-fill"></i></a>
