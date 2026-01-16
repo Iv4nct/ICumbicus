@@ -834,3 +834,18 @@ section[id]{ scroll-margin-top: 92px; }
   order: -1;
   margin: 0 0 6px 0;
 }
+/* FIX definitivo: en ABOUT (#sobre-mi) el pill va encima del H2 */
+#sobre-mi .section__head {
+  display: block !important;
+  text-align: right; /* mantiene el look del About a la derecha */
+}
+#sobre-mi .section__head .pill {
+  display: block !important;      /* fuerza salto de línea */
+  width: max-content;             /* que no ocupe todo el ancho visualmente */
+  margin-left: auto !important;   /* lo empuja a la derecha */
+  margin-bottom: 10px !important;
+}
+
+#sobre-mi .section__head h2 {
+  display: block !important;      /* el título debajo */
+}
