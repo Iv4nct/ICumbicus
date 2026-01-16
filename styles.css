@@ -306,7 +306,7 @@ img{max-width:100%; display:block}
 .section__head{
   margin-bottom: 28px;
 }
-.section__head.center{text-align:center}
+.section__head.center{text-align:left}
 .pill{
   display:inline-flex;
   padding: 6px 12px;
