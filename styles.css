@@ -834,15 +834,3 @@ section[id]{ scroll-margin-top: 92px; }
   order: -1;
   margin: 0 0 6px 0;
 }
-/* ABOUT ME: pill encima del título sin centrar el bloque */
-#sobre-mi .section__head {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* mantiene alineación original */
-  gap: 10px;
-}
-
-#sobre-mi .section__head .pill {
-  order: -1;   /* fuerza el pill arriba */
-  margin-bottom: 4px;
-}
