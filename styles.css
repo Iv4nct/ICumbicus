@@ -842,7 +842,7 @@ section[id]{ scroll-margin-top: 92px; }
 #sobre-mi .section__head .pill {
   display: block !important;      /* fuerza salto de línea */
   width: max-content;             /* que no ocupe todo el ancho visualmente */
-  margin-left: auto !important;   /* lo empuja a la derecha */
+  margin-right: auto !important;   /* lo empuja a la derecha */
   margin-bottom: 10px !important;
 }
 
