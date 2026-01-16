@@ -821,3 +821,16 @@ section[id]{ scroll-margin-top: 92px; }
   border-bottom-color: rgba(255,45,45,0.85);
   text-shadow: 0 0 18px rgba(255,45,45,0.25);
 }
+/* Solo para los heads centrados */
+.section__head.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.section__head.center .pill {
+  order: -1;
+  margin: 0 0 6px 0;
+}
