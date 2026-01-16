@@ -837,7 +837,7 @@ section[id]{ scroll-margin-top: 92px; }
 /* FIX definitivo: en ABOUT (#sobre-mi) el pill va encima del H2 */
 #sobre-mi .section__head {
   display: block !important;
-  text-align: right; /* mantiene el look del About a la derecha */
+  text-align: left; /* mantiene el look del About a la derecha */
 }
 #sobre-mi .section__head .pill {
   display: block !important;      /* fuerza salto de línea */
@@ -847,6 +847,5 @@ section[id]{ scroll-margin-top: 92px; }
 }
 
 #sobre-mi .section__head h2 {
-  display: block !important;
-  margin-right: auto !important;/* el título debajo */
+  display: block !important;/* el título debajo */
 }
