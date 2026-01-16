@@ -849,11 +849,9 @@ section[id]{ scroll-margin-top: 92px; }
 #sobre-mi .section__head h2 {
   display: block !important;/* el título debajo */
 }
-/* Centrar badge de idioma encima de las cards */
-#sobre-mi .badge {
+/* Badge de idioma centrado encima de las cards */
+.about__badge {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 40px auto 30px auto; /* arriba | lados | abajo */
-  width: max-content;
+  margin: 32px 0 28px;
 }
