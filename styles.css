@@ -847,5 +847,6 @@ section[id]{ scroll-margin-top: 92px; }
 }
 
 #sobre-mi .section__head h2 {
-  display: block !important;      /* el título debajo */
+  display: block !important;
+  margin-right: auto !important;/* el título debajo */
 }
